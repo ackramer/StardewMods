@@ -1,0 +1,11 @@
+{
+  "Name": "Sweets and Treats",
+  "Author": "lightofarwyn",
+  "Version": "1.0.0",
+  "Description": "An assortment of delicious desserts.",
+  "UniqueID": "lightofarwyn.SweetsAndTreats",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

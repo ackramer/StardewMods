@@ -1,0 +1,48 @@
+
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_CarrotCake": {
+          "Name": "Carrot Cake",
+          "DisplayName": "Carrot Cake",
+          "Description": "A moist and flavorful cake made with fresh carrots.",
+          "Type": "Cooking",
+          "Category": -7,
+          "Edibility": 75,
+          "Price": 250,
+          "IsColored": false,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 0,
+          "Buffs": [
+            {
+              "Id": 0,
+              "Duration": 300,
+              "Value": 2
+            },
+            {
+              "Id": 4,
+              "Duration": 300,
+              "Value": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "{{ModId}}_CarrotCake": "(O)Wheat Flour 1 Sugar 1 Egg 1 Oil 1 Carrot 3/10 10/{{ModId}}_CarrotCake/Farming 6/"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Objects",
+      "FromFile": "assets/carrot_cake.png"
+    }
+  ]
+}
